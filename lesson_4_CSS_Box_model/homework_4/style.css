@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: #f0e8dd; */
+    background-color: #fbeee0;
+    /* background-color: #f6f2eb; */
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400; /* 100-900 толщина шрифта*/
+    font-style: normal;
+    line-height: 1.5;
+}
+
+header {
+    background-image: url("../images/jakub-dziubak-XtUd5SiX464-unsplash.jpg");
+    height: 400px;
+    background-position: center; /* Сопоставление центра элемента с центром фонового изображения */
+    background-size: cover;  /* выравнивание элемента и фоновой картинки по одной из осей (X или Y) */
+    /* background-repeat: no-repeat; - если картинка меньше */
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fbeee0 100%); */
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1rem;
+    color: rgb(86, 59, 35);
+}
+
+main {
+    /* margin: 1rem 0 1rem 0; */
+    padding: 1rem;
+}
+
+section {
+    display: flex;
+    gap: 20px;
+    padding: 1rem;
+}
+
+div {
+    background-color: #f8ead7;
+    padding: 1rem;
+    /* border: 1px solid #ccc; */
+    flex: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    border-radius: 13px;
+    transition: background-color 0.3s ease;
+}
+
+div:hover {
+    background-color: rgb(236, 209, 178);
+}
+
+p {
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+a {
+    /* background-color: #b0965d; */
+    /* margin-top: auto; */
+    font-size: 20px;
+    /* color: #e39d24; */
+    color: rgb(144 83 52);
+    /* font-weight: bold; */
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #00000022;
+    /* border-radius: 10px; */
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    /* color: #c58919; */
+    /* background-color: #fff3e0; */
+    text-decoration: underline;
+}
