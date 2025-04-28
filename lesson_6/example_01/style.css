@@ -1,0 +1,29 @@
+.card {
+    background-color: lightcoral;
+    padding: 14px;
+    /* margin: 20px; */
+    border-radius: 18px;
+    height: 400px;
+    width: 300px;
+}
+
+.container {
+    /* чтобы включить флекс боксы */
+    display: flex;
+
+    /* justify выравнивает по основной оси */
+    justify-content: center;
+    gap: 20px; /* зазор, промежуток */
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 50px;   /* расстояние между строками, расстояние между рядами */
+}

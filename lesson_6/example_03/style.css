@@ -1,0 +1,53 @@
+.container {
+    height: 1600px;
+    background-color: lightcyan;
+
+    display: flex;
+    gap: 24px;
+    /* Выравнивание всех элементов по поперечной оси */
+
+    /* По основной оси - justify, а по поперечной - align */
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    /* Перенести весь контент в нижнюю часть контейнера */
+    align-content: flex-end;
+}
+
+.item {
+    background-color: lightpink;
+    height: 400px;
+    width: 350px;
+}
+
+.small {
+    height: 200px;
+}
+
+.toll {
+    height: 420px;
+}
+
+.five {
+    /* Задать ребенку особенное свойство - свойство детей */
+    align-self: flex-start;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2 {
+    padding: 32px;
+    display: flex;
+    gap: 32px;
+    flex-direction: row-reverse;
+}
+
+.special-kid {
+    /* flex grow - можно расширить дочерний элемент */
+    flex: 1;
+}
