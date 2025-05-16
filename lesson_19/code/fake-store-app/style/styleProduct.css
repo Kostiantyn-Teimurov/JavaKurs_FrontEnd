@@ -1,0 +1,43 @@
+body {
+    background-color: #f3f3f3;
+}
+
+#products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#products-container div {
+    width: 330px;
+    background-color: rgb(228, 201, 205);
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#products-container img {
+    width: 70%;
+}
+
+#products-container h2 {
+    text-align: center;
+}
+
+#products-container button {
+    background-color: rgb(92, 180, 51);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+#products-container button:hover{
+    background-color: rgb(61, 110, 39);
+    color: white;
+}
